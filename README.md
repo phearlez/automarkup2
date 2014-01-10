@@ -28,7 +28,7 @@ The product is called Automarkup2 because there is an earlier corpus of code, en
 Setting Up
 ----------
 
-Automarkup2 is written in perl and depends on [Eric Mill](http://github.com/konklone)'s  [citation finder](https://github.com/unitedstates/citation), which it expects to find in its standalone CLI form, cite. The simplest way to install it is to use NPM and install 'citation'
+Automarkup2 is written in perl and depends on [Eric Mill](http://github.com/konklone)'s  [citation finder](https://github.com/unitedstates/citation), which it expects to find in its standalone CLI form, cite. The simplest way to install it is to use NPM and install 'citation'. Additional details can be found at the above link.
 
 The perl code expects to find these modules
 
@@ -42,6 +42,8 @@ The perl code expects to find these modules
 	* DateTime
 	* DateTime::Format::XSD
 	* Data::Dumper
+
+and all of them are available via [CPAN](http://search.cpan.org).
 
 Getting the bills to mark up
 ----------------------------
